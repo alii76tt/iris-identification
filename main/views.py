@@ -25,7 +25,7 @@ def index(request):
     prediction = str(prediction).replace("'", "")
 
     if 'setosa' in prediction:
-        image_url = "https://upload.wikimedia.org/wikipedia/commons/2/27/Southern_Blue_Flag_Iris_%28iris_virginica%29_-_Flickr_-_Andrea_Westmoreland.jpg"
+        image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Irissetosa1.jpg/640px-Irissetosa1.jpg"
     elif 'versicolor' in prediction:
         image_url = "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iris_versicolor_5zz.jpg"
     else:
