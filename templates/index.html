@@ -35,6 +35,9 @@
             <i class="fa-solid fa-fan"></i>
             Result: <strong>{{prediction|upper}}</strong>
           </div>
+          {% if image_url %}
+          <img src="{{image_url}}" class="img-fluid" alt="...">
+          {% endif %}
         </div>
     </div>
 

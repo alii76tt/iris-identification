@@ -24,10 +24,19 @@ def index(request):
 
     prediction = str(prediction).replace("'", "")
 
+    if 'setosa' in prediction:
+        image_url = "https://upload.wikimedia.org/wikipedia/commons/2/27/Southern_Blue_Flag_Iris_%28iris_virginica%29_-_Flickr_-_Andrea_Westmoreland.jpg"
+    elif 'versicolor' in prediction:
+        image_url = "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iris_versicolor_5zz.jpg"
+    else:
+        image_url = "https://upload.wikimedia.org/wikipedia/commons/2/27/Southern_Blue_Flag_Iris_%28iris_virginica%29_-_Flickr_-_Andrea_Westmoreland.jpg"
+    
     context = {
         'prediction': prediction,
+        'image_url': image_url
     }
     return render(request, 'index.html', context)
+
 
 def page_not_found_view(request, exception):
     return render(request, '404.html', status=404)
