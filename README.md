@@ -2,7 +2,7 @@
 <a align='center'target="_blank" href="https://iris-identification.herokuapp.com/"><img alt="Website" src="https://camo.githubusercontent.com/6445e675c041a11811fdecd07f54540b2111105f0d7698f856680f276d8dd338/68747470733a2f2f6865726f6b752d62616467652e6865726f6b756170702e636f6d2f3f6170703d6865726f6b752d6261646765"></a>
 
 <p align='center'>Basic Iris Identification website built in django web framework using Python.</p>
-<p align='center' style="font-style: italic;">Dataset: <a target="_blank" href="https://archive.ics.uci.edu/ml/machine-learning-databases/iris/"></a></p>
+<p align='center' style="font-style: italic;">Dataset: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/</p>
 
 
 
@@ -14,7 +14,7 @@
 </p>
 
 <p align='center'>
-    <img align="center" src="./1.png" style="max-width:25em">
+    <img align="center" src="https://im.ezgif.com/tmp/ezgif-1-012ffde550.gif" style="max-width:25em">
 </p>
 
 
@@ -48,3 +48,8 @@ $ cd iris-identification
 $ pip install -r requirements.txt
 $ python manage.py runserver
 ```
+
+## Screenshot
+<p align='center'>
+    <img align="center" src="./1.jpg" style="margin-bottom: 15px;max-width:30em">
+</p>
