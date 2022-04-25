@@ -14,7 +14,7 @@
 </p>
 
 <p align='center'>
-    <img align="center" src="https://im.ezgif.com/tmp/ezgif-1-c6ca29b95b.gif" style="max-width:25em">
+    <img align="center" src="2.gif" style="max-width:25em">
 </p>
 
 
